@@ -2,8 +2,9 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, filters, ContextTypes
 
-TELEGRAM_TOKEN = "COLLE_TON_TOKEN_ICI"
-GROQ_KEY = "COLLE_TA_CLE_GROQ_ICI"
+TELEGRAM_TOKEN = "8945087338:AAGsjPW6t7yRL0uX1f6E7d2EUDJX4m246sA"
+GROQ_KEY = "gsk_KgfQ95etWwZTA9CwZCtq
+WGdyb3FYiayiJDvTbfc4b10UvkGCAb3I"
 
 def ask_groq(question):
     try:
